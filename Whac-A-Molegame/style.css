@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.grid {
+  height: 600px;
+  width: 600px;
+ 
+  display: flex;
+  margin: 8px 30px 60px 30px ;
+  flex-wrap: wrap;
+ 
+}
+.whole{ display: flex;
+    align-self: center;
+    justify-items: center;
+     align-items: center;
+     justify-content: center;
+    flex-direction: column;
+margin: 10px 30px 30px 30px ;}
+
+.item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 10px 15px 10px;
+    gap: 10px;
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    border: black solid 1px;
+    display: flex;
+    
+}
+.mole{
+  background-image: url('./mol.webp');
+  background-size: cover;
+  transition: all 0.3s ease-in-out;
+  
+}
+.btn{
+  display: flex;
+  align-items: center;
+  background-color: crimson;
+  color: #ffffff;
+  border: none;
+  font-size: medium;
+ padding: 5px;
+ padding-left: 10px;
+ padding-right: 10px;
+ cursor: pointer;
+}
+.btn:hover{
+  background-color: darkgray;
+  color: black;
+  font: 600;
+  
+}
